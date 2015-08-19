@@ -7092,18 +7092,16 @@ input[type=range]::-webkit-slider-runnable-track {
   background-color: #333333;
 }
 .nav {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
   text-shadow: 0em 0.1em 0.2em rgba(0, 0, 0, 0.3);
 }
 .nav .open > a,
 .nav .open > a:hover,
 .nav .open > a:focus {
   border-color: transparent;
-}
-.nav-tabs {
-  display: -webkit-box;
-  display: -webkit-flex;
-  display: -ms-flexbox;
-  display: flex;
 }
 .nav-tabs > li > a {
   text-shadow: 0em 0.1em 0.2em rgba(0, 0, 0, 0.3);
